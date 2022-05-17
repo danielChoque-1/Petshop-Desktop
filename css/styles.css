@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: "roboto";
+}
+
+/*header*/
+
+.header_box1{
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    color: white;
+}
+
+div.header_box1 p{
+    margin: 4px 90px;
+}
+
+.header_box2{
+    display: flex;
+    justify-content: space-between;
+    background: #F0A83E;
+    color: white;
+}
+
+div.header_box2 img{
+    margin: 20px 60px;
+}
+
+.list_header{
+    display: flex;
+    margin: 20px 40px;
+}
+
+li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+/*main*/
+main div.caja_1{
+    position: relative;
+}
+
+main div img.main_background{
+    width: 100%;
+}
+
+main div section.box_1{
+    position: absolute;
+    margin: 180px 20px 150px 850px;
+    text-align: center;
+}
+
+main div section.box_1 h2{
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 12px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+main div section.box_1 h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 12px;
+}
+
+main div section.box_1 button{
+    background: #F0A83E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.box_2{
+    text-align: center;
+    margin-top: 25px;
+}
+
+div.box_2 h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+div.box_2 nav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #666666;
+}
+
+.box_3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.color_price{
+    color:#F0A83E;
+    font-weight: 800;
+}
+
+main div.box_3 section p{
+    font-weight: 800;
+    line-height: 15px;
+    color: #3C2313;
+}
+
+
+main div.box_3 section{
+    text-align: center;
+    background: #FBFAF6;
+    margin-bottom: 80px;
+}
+
+main div.box_3 section.section1_churrasquito{
+    margin-left: 100px;
+}
+
+main div.box_3 section.section3_huesito{
+    margin-right: 100px;
+}
+
+main section.box_4{
+    text-align: center;
+}
+
+section.box_4 h2{
+    font-weight: 800 bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    margin-bottom: 20px;
+}
+
+main section.box_4 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.box_4 form input{
+    background: #3C2313;
+    border-radius: 15px;
+    color: white;
+    width: 30vw;
+    height: 6vh;
+    margin: 10px;
+    border: none;
+}
+
+main section.box_4 button{
+    border-radius: 15px;
+    background: #F0A83E;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    font-size: 16px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+    /*solucionar color boton*/
+.color_button1{
+    background: #8A8787;
+}
+
+main section.box_5{
+    display: flex;
+    justify-content: space-evenly;
+    background: #F0A83E;
+    color: white;
+    height: 10vh;
+}
+
+main section.box_5 h2{
+    margin: 17px 0px;
+}
+
+main section.box_5 form input{
+    background: white;
+    border-radius: 15px;
+    border: none;
+    width: 25vw;
+    height: 6vh;
+    margin: 13px 0px;
+}
+
+main section.box_5 button{
+    border: none;
+    border-radius: 15px;
+    background: #3C2313;
+    color: white;
+    font-size: 10px;
+    line-height: 11px;
+    width: 8vw;
+    height:6vh;
+    margin: 13px 0px;
+}
+
+
+/*footer*/
+
+footer div.footer_box1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background: #3C2313;
+    color: white;
+
+}
+
+.section_datos{
+    margin: 30px 80px;
+}
+
+.footer_logo{
+    width:166px ;
+    height: 25px ;
+    margin: 200px 70px;
+}
+
+.footer_box2{
+    background: #222222;
+    color: white;
+    text-align: center;
+    height: 6vh;
+    
+}
+
+.footer_box2 p{
+    position: absolute;
+    margin: 10px 500px;
+}
+
+.icon_datos{
+    font-size: 50px;
+    color:#8A8787;
+}
